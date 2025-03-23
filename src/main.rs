@@ -1,3 +1,5 @@
+use hello_lib::print_providers::print_hello_world;
+
 fn main() {
-    println!("Hello, world!");
+    print_hello_world();
 }
